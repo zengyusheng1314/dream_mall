@@ -13,6 +13,7 @@
         <module>mall-security</module>
         <module>mall-common</module>
         <module>mall-redis-comm</module>
+        <module>mall-product</module>
     </modules>
 
     <properties>
