@@ -42,7 +42,7 @@
         <mall-common.version>${project.version}</mall-common.version>
         <mall-admin.version>${project.version}</mall-admin.version>
         <mall-security.version>${project.version}</mall-security.version>
-
+        <mall-redis.version>${project.version}</mall-redis.version>
         <spring-cloud.version>Hoxton.SR9</spring-cloud.version>
         <spring-cloud-alibaba.version>2.2.6.RELEASE</spring-cloud-alibaba.version>
 
@@ -93,6 +93,11 @@
             <dependency>
                 <groupId>com.sean</groupId>
                 <artifactId>mall-admin</artifactId>
+                <version>${mall-admin.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.sean</groupId>
+                <artifactId>mall-redis-comm</artifactId>
                 <version>${mall-admin.version}</version>
             </dependency>
             <!--MyBatis分页插件starter-->
