@@ -1,7 +1,7 @@
 package com.sean.mall.common.exception;
 
 
-import com.tuling.tulingmall.common.api.IErrorCode;
+import com.sean.mall.common.api.IErrorCode;
 import lombok.Data;
 
 /**
