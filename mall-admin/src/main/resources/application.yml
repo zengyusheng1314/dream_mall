@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: mall-admin
+  datasource:
+    dynamic:
+      primary: user
+      strict: false
+      datasource:
+        user:
+          url: jdbc:mysql://120.48.58.5:3306/dream_mall_user?characterEncoding=utf-8&useSSL=false
+          driver-class-name: com.mysql.cj.jdbc.Driver
+          username: sean
+          password: sean@19980803
+
+mybatis-plus:
+  mapper-locations:
+    - classpath:dao/*.xml

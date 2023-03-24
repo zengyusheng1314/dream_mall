@@ -1,9 +1,9 @@
 package com.sean.mall.security.config;
 
-import com.tuling.tulingmall.security.component.JwtAuthenticationTokenFilter;
-import com.tuling.tulingmall.security.component.RestAuthenticationEntryPoint;
-import com.tuling.tulingmall.security.component.RestfulAccessDeniedHandler;
-import com.tuling.tulingmall.security.util.JwtTokenUtil;
+import com.sean.mall.security.component.JwtAuthenticationTokenFilter;
+import com.sean.mall.security.component.RestAuthenticationEntryPoint;
+import com.sean.mall.security.component.RestfulAccessDeniedHandler;
+import com.sean.mall.security.util.JwtTokenUtil;
 import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpMethod;
 import org.springframework.security.authentication.AuthenticationManager;

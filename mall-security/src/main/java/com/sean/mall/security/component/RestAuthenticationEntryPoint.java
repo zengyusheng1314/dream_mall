@@ -1,7 +1,7 @@
 package com.sean.mall.security.component;
 
 import cn.hutool.json.JSONUtil;
-import com.tuling.tulingmall.common.api.CommonResult;
+import com.sean.mall.common.api.CommonResult;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.AuthenticationEntryPoint;
 
