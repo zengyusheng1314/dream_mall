@@ -1,9 +1,9 @@
 package com.sean;
 
-import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure;
 
 /**
  * @author zengyusheng
